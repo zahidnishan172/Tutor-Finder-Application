@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".StudentSignUpActivity">
+
+    <EditText
+        android:id="@+id/sgnNameS"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:hint="User Name"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/sgnEmailS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/sgnPassS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="numberPassword"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/sgnPhnS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone Number"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/sgnLocationS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Location"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/sSgnBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SignUp" />
+</LinearLayout>

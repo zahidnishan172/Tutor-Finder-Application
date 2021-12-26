@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".TeacherSignUp">
+
+    <EditText
+        android:id="@+id/sgnNameT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="User Name"
+        android:singleLine="true"/>
+    <EditText
+        android:id="@+id/sgnEmailT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"/>
+    <EditText
+        android:id="@+id/sgnPassT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="numberPassword"/>
+    <EditText
+        android:id="@+id/sgnPhnT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone Number"/>
+    <EditText
+        android:id="@+id/sgnLocationT"
+        android:layout_width="match_parent"
+        android:hint="Location"
+        android:layout_height="wrap_content" />
+    <Spinner
+        android:id="@+id/sgnSubjectT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/tSgnBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SignUp"/>
+</LinearLayout>
